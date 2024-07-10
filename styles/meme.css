@@ -44,10 +44,15 @@ p {
 }
 
 
+
+
+
+
+
 footer {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto auto auto;
     justify-items: center;
     background-color: #f6a25e;
     margin: 0%;
@@ -56,17 +61,21 @@ footer {
 
 .copyright {
     grid-column-start: 2;
+    grid-row-start: 2;
+}
+.meee {
+    grid-column-start: 2;
     grid-row-start: 1;
 }
 .insta {
     grid-column-start: 1;
-    grid-row-start: 2;
+    grid-row-start: 3;
 }
 .face {
     grid-column-start: 2;
-    grid-row-start: 2;
+    grid-row-start: 3;
 }
 .x {
     grid-column-start: 3;
-    grid-row-start: 2;
+    grid-row-start: 3;
 }
