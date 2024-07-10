@@ -30,13 +30,13 @@ a:link {
 .memepage {
     font-family: 'Kalam';
     font-size: 30px;
-    color: white;
+    color: black;
     grid-column-start: 2;
 }
 .browsepage {
     font-family: 'kalam';
     font-size: 30px;
-    color: white;
+    color: black;
     grid-template-columns: 3;
 }
 
