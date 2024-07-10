@@ -28,9 +28,15 @@ a:link {
     grid-column-start: 1;
 }
 .memepage {
+    font-family: 'Kalam';
+    font-size: 30px;
+    color: white;
     grid-column-start: 2;
 }
 .browsepage {
+    font-family: 'kalam';
+    font-size: 30px;
+    color: white;
     grid-template-columns: 3;
 }
 
