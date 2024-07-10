@@ -28,9 +28,13 @@ a:link {
     grid-column-start: 1;
 }
 .memepage {
+    color: black;
+    font-size: 30px;
     grid-column-start: 2;
 }
 .browsepage {
+    color: black;
+    font-size: 30px;
     grid-template-columns: 3;
 }
 
@@ -41,6 +45,83 @@ h1,h2,h3,h4,h5,h6 {
 p {
     font-family: 'Kalam';
 }
+h1 {
+    background-color: #4759fc;
+    border-radius: 10px;
+    display: grid;
+    justify-items: center;
+    margin: 25px;
+    -webkit-text-stroke: .25px black;
+    color: #50D18A;
+    font-size: 48px;
+}
+h3 {
+    -webkit-text-stroke: .25px black;
+    color: #50D18A;
+    font-size: 48px;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+.box1 {
+    background-color: rgb(255, 245, 225, 0.7);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 30px;
+    grid-template-rows: auto auto auto auto;
+    justify-items: center;
+    margin: 70px 0px 70px 0px;
+}
+h2 {
+    font-size: 30px;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+.img1 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.description {
+    font-size: 25px;
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+
+
+
+
+
+.box2 {
+    background-color: rgb(255, 245, 225, 0.7);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 30px;
+    grid-template-rows: auto auto auto auto auto;
+    justify-items: center;
+    margin: 70px 0px 70px 0px;
+}
+
+
+h4 {
+    font-size: 30px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.img2 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+.description2 {
+    font-size: 25px;
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+
+
+
+
 
 
 
