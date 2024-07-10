@@ -37,7 +37,7 @@ a:link {
     font-family: 'kalam';
     font-size: 30px;
     color: black;
-    grid-template-columns: 3;
+    grid-column-start: 3;
 }
 
 
