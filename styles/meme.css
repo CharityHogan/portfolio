@@ -35,7 +35,7 @@ a:link {
 .browsepage {
     color: black;
     font-size: 30px;
-    grid-template-columns: 3;
+    grid-column-start: 3;
 }
 
 
