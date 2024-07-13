@@ -62,7 +62,7 @@ h1 {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-column-gap: 30px;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto auto auto;
     justify-items: center;
     margin: 70px 0px 70px 0px;
 }
@@ -74,13 +74,42 @@ p {
     grid-column-start: 2;
     grid-row-start: 2;
 }
+
+.comment_box {
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+h2 {
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.comment_box input {
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.comment_box textarea {
+    width 100%
+    height: 150px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+
+
 .block2 {
     background-color: rgb(255, 245, 225, 0.7);
     border-radius: 10px;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-column-gap: 30px;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto auto auto auto;
     justify-items: center;
     margin: 70px 0px 70px 0px;
 }
